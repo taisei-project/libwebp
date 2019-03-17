@@ -1,0 +1,14 @@
+
+option(
+    'enable_simd',
+    type : 'boolean',
+    value : true,
+    description : 'Enable SIMD optimizations (if supported)'
+)
+
+option(
+    'enable_neon_rtcd',
+    type : 'boolean',
+    value : true,
+    description : 'Enable run-time detection of NEON instruction set (if supported)'
+)
