@@ -16,12 +16,11 @@ libwebpdecoder = library('webpdecoder',
     install : false,
     build_by_default : false,
 
-    include_directories : [include_root, webp_includes],
-    implicit_include_directories : false,
+    include_directories : include_root,
 )
 
 webpdecoder_dep = declare_dependency(
     link_with : libwebpdecoder,
-    include_directories : webp_includes,
+    include_directories : include_directories('.'),
     version : meson.project_version(),
 )
