@@ -40,5 +40,3 @@ src_webp += configure_file(
     output : 'config.h',
     configuration : config,
 )
-
-webp_includes = include_directories('.')
