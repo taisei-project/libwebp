@@ -21,6 +21,7 @@ src_dsp = files(
     'lossless_msa.c',
     'lossless_neon.c',
     'lossless_sse2.c',
+    'lossless_sse41.c',
     'rescaler.c',
     'rescaler_mips32.c',
     'rescaler_mips_dsp_r2.c',
