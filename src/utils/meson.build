@@ -6,6 +6,7 @@ src_utils = files(
     'filters_utils.c',
     'huffman_encode_utils.c',
     'huffman_utils.c',
+    'palette.c',
     'quant_levels_dec_utils.c',
     'quant_levels_utils.c',
     'random_utils.c',
